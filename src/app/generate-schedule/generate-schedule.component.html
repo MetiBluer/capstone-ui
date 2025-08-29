@@ -1,5 +1,10 @@
+<div class="generate-schedule-container">
+
+
 <div class="generate-schedule p-4">
-  <h2 class="text-xl font-semibold mb-4">Generate Exam Schedule</h2>
+    <mat-toolbar color="primary" class="generate-header">
+    <span>Generate Schedule</span>
+  </mat-toolbar>
 
   <!-- Generate Schedule Form -->
   <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -90,4 +95,5 @@
       <tr mat-row *matRowDef="let row; columns: ['subject','date','time','room','actions']"></tr>
     </table>
   </div>
+</div>
 </div>
